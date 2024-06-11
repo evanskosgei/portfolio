@@ -4,9 +4,9 @@ const Hero = () => {
     <div className="justify-center">
       <header className="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-slate-700 md:mx-auto md:flex-row md:items-center">
         <a href="#" className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black">
-          <span className="mr-2 text-4xl text-green-500">
+          <span className="text-green-500">
+            Evans Kosgei
           </span>
-          Evans Kosgei
         </a>
         <input type="checkbox" className="peer hidden" id="navbar-open" />
         <label className="absolute top-5 right-7 cursor-pointer md:hidden" htmlFor="navbar-open">
@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="mb-16 text-center lg:mb-0 lg:max-w-lg lg:text-left">
             <div className="mb-6 max-w-xl">
               <div>
-                <p className="bg-teal-accent-400 mb-4 inline-block rounded-full bg-green-200 px-3 py-px text-sm font-semibold tracking-wider text-green-900">Hey, this Evans</p>
+                <p className="bg-teal-accent-400 mb-4 inline-block rounded-full bg-green-200 px-3 py-px text-sm font-semibold tracking-wider text-green-900">Hello</p>
               </div>
               <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold tracking-tight text-slate-700 sm:text-5xl sm:leading-snug">
                 I&apos;m Evans Kosgei <br />
